@@ -13,5 +13,14 @@ public class Problem03 {
         if (a >= 1 && b <=1000)  {
             System.out.println( 2*(a+b));
         }
+   Scanner sc2 = new Scanner(System.in);
+        if (sc.hasNextInt() ) {
+            int say = sc2.nextInt();
+            System.out.println("Say" + say);
+        }
+else {
+            System.out.println("Bir say girin ");
+        }
+
     }
 }
